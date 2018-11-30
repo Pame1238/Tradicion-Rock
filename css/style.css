@@ -1,0 +1,357 @@
+*{
+	margin: 0;
+
+}
+
+body{
+	background-image: url('../imagenes/fondo.jpg');
+}
+header {
+	display: flex;
+	background-color: #000000;
+	padding-top: 0rem;
+}
+
+#encabezado img{
+	height: 3.5rem;
+	width: 13rem;
+	margin-left: 12rem;
+}
+
+#proximo>img{
+	width: 50rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 3rem;
+	border: outset;
+	border-radius: 15%;
+	border-color: aqua;
+}
+
+#proximo>img:hover{
+	width: 51rem;
+}
+h1{
+	text-align: center;
+	font-family: 'K2D', sans-serif;
+	color: #FFFFFF;
+}
+
+#menu {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #000000;
+}
+
+#contenedor{
+	display: grid;
+}
+.texto{
+	margin: 2rem;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: xx-large;
+	color: #A3A3A4;
+}
+
+#ampli{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	width: 100%;
+}
+
+#ampli img{
+	width: 35rem;
+	display: block;
+	margin: auto;
+}
+
+#fotos{
+	display: block;
+	margin: 0;
+}
+
+#image{
+	display: block;
+	margin: auto;
+	margin-top: 7rem;
+	width: 32.7rem;
+	height: 21.2rem;
+	/*background-image: url("../imagenes/foto2.jpg");*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	animation: banner 10s infinite;
+
+}
+#histo, #img-histo{
+	width: 32.7rem;
+	height: 21.2rem;
+	border: outset;
+	border-color: aqua;
+}
+#histo{
+	border-top-left-radius: 5%;
+	border-bottom-left-radius: 5%;
+}
+#img-histo{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+
+	animation: banner 10s infinite;
+}
+@keyframes banner{
+	0%, 15% {
+		background-image: url('https://scontent.fluq1-1.fna.fbcdn.net/v/t1.0-9/39589402_1512268552251637_6150546661413224448_n.jpg?_nc_cat=106&_nc_ht=scontent.fluq1-1.fna&oh=4b06d521e868b230b374a4ea9e0a12b2&oe=5C80A02E');
+	}
+		
+	20%, 35% {
+		background-image: url('https://scontent.fluq1-1.fna.fbcdn.net/v/t1.0-9/45367040_1575069485971543_5313284804723081216_n.jpg?_nc_cat=110&_nc_ht=scontent.fluq1-1.fna&oh=b0972b6dfd357a1b6d764c9c13e9a0df&oe=5C6A6824');
+	}
+		
+	40%, 55% {
+		background-image: url('https://scontent.fluq1-1.fna.fbcdn.net/v/t1.0-9/35847141_1436590373152789_3932045295382167552_n.jpg?_nc_cat=108&_nc_ht=scontent.fluq1-1.fna&oh=9e65802aee61ace7c0562c0bb5e13995&oe=5C74029B');
+	}
+
+	60%, 75% {
+		background-image: url('https://scontent.fluq1-1.fna.fbcdn.net/v/t1.0-9/42452738_1541911032620722_204563262174396416_n.jpg?_nc_cat=110&_nc_ht=scontent.fluq1-1.fna&oh=aeb4b216fca4d30bc6cd5b5e4bb9056a&oe=5C8451F4');
+	}
+		
+	80%, 100% {
+		background-image: url('https://scontent.fluq1-1.fna.fbcdn.net/v/t1.0-9/41392611_1529311063880719_2472225240487297024_n.jpg?_nc_cat=108&_nc_ht=scontent.fluq1-1.fna&oh=37b3922447976cd87ff7e2ca0100637d&oe=5C8689AD');
+	}
+}
+
+#seccion{
+	display: flex;
+	align-items: center;
+	height: 30rem;
+}
+ul {
+	list-style: none;
+	display: inline-flex;
+}
+
+li{
+	margin: 1rem;
+	cursor: pointer;
+	font-family: 'K2D', sans-serif;
+	
+}
+
+li a{
+	text-decoration: none;
+	color: #A3A3A4;
+}
+li a:hover {
+	color: #FFFFFF;
+}
+
+footer {
+	width: 100%;
+	height: 3.5rem;
+	background-color: #323436;
+	bottom: 0%;
+	position: fixed;
+}
+#contactos{
+	text-align: center;
+	margin: 1vh auto;
+	width: auto;
+}
+
+#contactos a {
+	display: inline-block;
+	margin: 0.4rem;
+}
+
+.cuadros{
+	margin: auto;
+	display: flex;
+}
+
+#galeria{
+	margin: 0px;
+}
+.filas{
+	margin: auto;
+}
+.img {
+	background-size: 100% 100%;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/*novedades*/
+
+#tabla{
+	display: flex;
+}
+
+#noticias{
+	margin: auto;
+}
+.toque, .desc {
+	width: 30rem;
+	height: 20rem;
+	background-size: 100% 100%;
+	background-color: #FFFFFF;
+	border-radius: 1rem;
+}
+.toque:hover {
+	opacity: 0.5;
+}
+.desc:hover {
+	background-color: green;
+	color: #ffffff;
+}
+p{
+	
+	text-align: justify;
+	padding-top: 1.5rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+p, .aviso {
+	font-family: 'K2D', sans-serif;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 900px;
+}
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+@keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+.tab-img{
+    margin-top: 70px;
+}
+
+table{
+    margin: auto;
+}
+th{
+    background: white;
+    opacity: 0.7;
+}
+th,td{
+    border-radius: 5px;
+}
+td{
+    background: black;
+}
+
+.imagenes:hover{opacity: 0.7;}
+
+#form {
+	margin: auto;
+	background-color: #ffffff;
+	border-radius: 3%;
+}
+
+#inputs{
+	display: grid;
+	margin: 1rem;
+}
+#demo{
+	display: grid;
+}
+.aviso{
+	text-align: center;
+	margin-left: 10rem;
+	margin-right: 10rem;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+
+#div-form{
+
+}
+
+.buttons{
+	color: white;
+	background-color: #00BCD5;
+	border: none;
+	height: 2rem;
+}
+
+#mensaje{
+	background-color: aqua;
+	width: 10rem;
+	text-align: center;
+	display: block;
+	position: absolute;
+	margin: 40%;
+	height: 1.5rem;
+	border-radius: 15%;
+	border: outset;
+	display: none;
+}
+
+
+#histo{
+	background-color: #ffffff;
+}
